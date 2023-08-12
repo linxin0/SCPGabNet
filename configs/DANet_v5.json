@@ -1,0 +1,64 @@
+{
+    # training settings
+
+    "batch_size": 12,
+    "patch_size": 128,
+    "epochs": 400,
+    "lr_D": 1e-4,
+    "lr_G": 1e-4,
+    "lr_P": 1e-4,
+    "lr_E": 1e-4,
+    "lr": 1e-4,
+    "lr_decay": 50,
+    "gamma": 0.5,
+
+
+
+
+    "print_freq": 10,
+    "num_workers": 0,
+    "gpu_id": "0",
+
+    "resume":"",
+    # suporrt vanilla||lsgan
+    "gan_mode": "lsgan",
+
+    "milestones": [50,100,125,150,175,190],
+    "weight_decay": 0,
+
+    ############### network architecture ###############
+    # number of filters of the first convolution in UNet
+    "wf": 32,
+    # depth of UNet
+    "depth": 5,
+    # number of filters of the first convolution in Discriminator
+    "ndf": 64,
+
+    ######### training and validation data path ########
+    "SIDD_train_h5_noisy": "./dataset/small_imgs_test.hdf5",
+    "SIDD_train_h5_gt": "./dataset/small_imgs_train_im_gt.hdf5",
+    "SIDD_test_h5": "./dataset/small_imgs_test.hdf5",
+
+    # saving models and logs
+    "model_dir": "./model_ours_12",
+    "log_dir": "./logs_DANet",
+    "save_dir": "./logs_DANet",
+    "model_dir_test":"./model_ours_12",
+
+    ########### hyper-parameters of our model ##########
+    "alpha": 0.5,
+    # kernel size for the Gauss filter in loss function
+    "ksize": 5,
+    "lambda_gp": 10,
+    "tau_D": 1000,
+    "tau_G": 10,
+    "rec_x": 1,
+    "rec_y": 1,
+    "l1_loss": 1,
+    "idt": 1,
+    "adversarial_loss_factor": 1,
+    "perceptual_loss_factor": 1,
+    "bgm_loss": 6,
+    "num_critic":1,
+    "mse_loss_factor":1
+}
