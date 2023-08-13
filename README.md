@@ -6,7 +6,7 @@
 
 This is the official code of SCPGabNet
 
-![main_fig](./figs/main.png)
+![main_fig](./kuangjia.png)
 
 
 ## Abstract
