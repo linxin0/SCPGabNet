@@ -2,7 +2,7 @@
 
 ### Xin Lin, Chao Ren, Xiao Liu, Jie Huang, Yinjie Lei
 
-[![paper](https://img.shields.io/badge/arXiv-Paper-green_yellow)](https://arxiv.org/abs/2307.16825)
+[![paper](https://img.shields.io/badge/arXiv-Paper-green_yellow)](https://arxiv.org/pdf/2308.06776.pdf)
 
 This is the official code of SCPGabNet
 
