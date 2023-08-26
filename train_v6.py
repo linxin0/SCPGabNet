@@ -85,7 +85,7 @@ def main():
         print('{:<15s}: {:s}'.format(key, str(value)))
 
     # making dataset, out dataset are hdf5
-    datasets = {'train': BenchmarkTrain(h5_file=args['SIDD_test_h5'],
+    datasets = {'train': BenchmarkTrain(h5_file=args['SIDD_train_h5_noisy'],
                                         length=2000 * args['batch_size'] * args['num_critic'],
                                         pch_size=args['patch_size'],
                                         mask=False),
