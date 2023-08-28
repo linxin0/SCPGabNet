@@ -180,7 +180,7 @@ def train_epoch(net, datasets, optimizer, args, criterionGAN):
             bgm_loss1 = 0
             bgm_loss2 = 0
             bgm_loss  = 0
-# 求BCM
+# BCM Loss
             for index, weight in enumerate(BlurWeight):
                 out_b1 = BlurNet[index](im_gt)
                 out_real_b1 = BlurNet[index](fake_im_noisy1)
@@ -327,7 +327,6 @@ def train_epoch(net, datasets, optimizer, args, criterionGAN):
 
     print('Reach the maximal epochs! Finish training')
 
-# 不更新梯度，判别器中使用
 def set_requires_grad(nets, requires_grad=False):
     """Set requies_grad=Fasle for all the networks to avoid unnecessary computations
     Parameters:
