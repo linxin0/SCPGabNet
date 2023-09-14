@@ -29,7 +29,8 @@ Test: https://pan.baidu.com/s/1rnVpi7xRO5_6PARJmY_kSw  t036
 
 ## Pre-trained Models
 
-https://pan.baidu.com/s/1nu9v-yHMWXrKHU2bT9XYog   6022 
+https://pan.baidu.com/s/1EdXN7o9EW_ssDRHxDKFeXw    icp1 
+
 
 
 ## Test
