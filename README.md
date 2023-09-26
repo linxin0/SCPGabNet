@@ -33,14 +33,12 @@ https://pan.baidu.com/s/1EdXN7o9EW_ssDRHxDKFeXw    icp1
 
 
 
-## Test
+## Train & Test
 You can get the complete SIDD validation dataset from https://www.eecs.yorku.ca/~kamel/sidd/benchmark.php.
 
 '.mat' files need to be converted to images ('.png'). 
 
-run `test.py`to output the denoising results of our proposed method.
-
-## Train
+train and test are both in `train_v6.py`.
 
 run `trainv6.py`.
 
