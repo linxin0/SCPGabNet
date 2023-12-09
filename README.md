@@ -43,6 +43,15 @@ train and test are both in `train_v6.py`.
 
 run `trainv6.py`.
 
+## Issues Summaries
+
+Thanks for your interest in our work. 
+
+How to train: In each iteration choose the best results for the next iteration (about 10-20epoch can be regarded as a cycle), about 8-10 iterations.
+
+When the loss_D to be Nan: The GAN-based methods is difficult to train, you may need retrain the generator and discriminator in the next iteration (i.e., do not load their parameters), and only load the parameters of DN and NE.
+
+
 ## Citation
 
     @inproceedings{scpgabnet,
