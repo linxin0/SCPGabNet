@@ -35,7 +35,7 @@
     "ndf": 64,
 
     ######### training and validation data path ########
-    "SIDD_train_h5_noisy": "./dataset/small_imgs_test.hdf5",
+    "SIDD_train_h5_noisy": "./dataset/small_imgs_train_im_noisy.hdf5",
     "SIDD_train_h5_gt": "./dataset/small_imgs_train_im_gt.hdf5",
     "SIDD_test_h5": "./dataset/small_imgs_test.hdf5",
 
