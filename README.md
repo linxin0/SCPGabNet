@@ -2,7 +2,7 @@
 
 ### Xin Lin, Chao Ren, Xiao Liu, Jie Huang, Yinjie Lei
 
-### !!! The extended journal version for unsupervised denoising and deraining will come soon !!!
+### !! The extended journal version for unsupervised denoising and deraining will come soon !!
 
 [![paper](https://img.shields.io/badge/arXiv-Paper-green_yellow)]([https://arxiv.org/pdf/2308.06776.pdf](https://openaccess.thecvf.com/content/ICCV2023/papers/Lin_Unsupervised_Image_Denoising_in_Real-World_Scenarios_via_Self-Collaboration_Parallel_Generative_ICCV_2023_paper.pdf))
 
