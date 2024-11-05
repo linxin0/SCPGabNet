@@ -172,11 +172,9 @@ def train_epoch(net, datasets, optimizer, args, criterionGAN):
 
             subloss_epoch['perceptual_loss'] += 0
             adversarial_loss1 = criterionGAN(net['P'](fake_im_noisy1), True)
-            adversarial_loss2 = criterionGAN(net['P'](fake_im_noisy2), True)
-            adversarial_loss3 = criterionGAN(net['P'](fake_im_noisy3), True)
-            adversarial_loss4 = criterionGAN(net['P'](fake_im_noisy4), True)
 
-            adversarial_loss = adversarial_loss1+adversarial_loss2+adversarial_loss3+adversarial_loss4
+
+            adversarial_loss = adversarial_loss1
             identity_loss = 0
             bgm_loss1 = 0
             bgm_loss2 = 0
