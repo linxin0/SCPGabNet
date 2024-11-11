@@ -32,7 +32,9 @@ Test: https://pan.baidu.com/s/1yltsD684qpJa0SMJ9SdR5w   8qzf
 
 ## Pre-trained Models
 
-https://pan.baidu.com/s/1EdXN7o9EW_ssDRHxDKFeXw    icp1 
+Google Drive: https://drive.google.com/file/d/1wzceTFvnoepftIEJn1DI73iHnGi_pvMl/view?usp=sharing
+
+Baidu Drive: https://pan.baidu.com/s/1EdXN7o9EW_ssDRHxDKFeXw    icp1 
 
 
 
